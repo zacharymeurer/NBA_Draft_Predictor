@@ -34,6 +34,7 @@ This project utilizes an NBA prospect’s college basketball stats to predict wh
 
 Ideas to implement in the future to improve accuracy: 
 
-- Adding additional auxiliary data from the [nba draft combine](https://github.com/wyattowalsh/nba-db/tree/main) (e.g. draft combine data like vertical leap, wingspan, etc.)
-- Weighting the weighted average on multiple variables (e.g. minutes played, conference strength, and team strength)
+- Adding additional auxiliary data from the [nba draft combine](https://github.com/wyattowalsh/nba-db/tree/main) (e.g. draft combine data like vertical leap, wingspan, etc.).
+- Weighting the weighted average on multiple variables (e.g. minutes played, conference strength, and team strength).
 - Trying a different machine learning model (e.g. neural network regressor).
+- Test model on CollegeBasketballPlayers2022.csv and rank regression scores in order. Measure how close model's prediction of the draft is to the true outcome.
