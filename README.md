@@ -1,10 +1,10 @@
 # NBA Draft Predictor
 
-### Overview: 
+## Overview: 
 
 This project utilizes an NBA prospect’s college basketball stats to predict what pick the player will be drafted. 
 
-### Data Sources: 
+## Data Sources: 
 
 - NCAA season stats for each player from Aditya Kumar's [College Basketball 2009-2021 + NBA Advanced Stats](https://www.kaggle.com/datasets/adityak2003/college-basketball-players-20092021?resource=download)
 
@@ -14,9 +14,9 @@ This project utilizes an NBA prospect’s college basketball stats to predict wh
 
   https://www.teamrankings.com/ncaa-basketball/rpi-ranking/rpi-rating-by-conf/ & https://www.teamrankings.com/ncb/rpi/
 
-### Methods: 
+## Methods: 
 
-#### Data Preparation:
+### Data Preparation:
 
 - Scraped RPI ratings for teams and conferences.
 - Merged ratings data with NCAA data after making join key consistent between datasets (i.e. reformatting conference and team names to match in each dataset).
@@ -24,13 +24,13 @@ This project utilizes an NBA prospect’s college basketball stats to predict wh
 - Grouped the records of CollegeBasketballPlayers2009-2021.csv on player by taking a weighted average of each attribute dependent on a players’ minutes played.
 - Normalized Data.
 
-#### Machine Learning:
+### Machine Learning:
 
 - Trained a random forest regressor on a prospect's college basketball stats to predict draft pick. 
 - Tuned the hyperparameters through Bayesian optimization before visualizing the model and its performance.
 - Measured and Plotted model accuracy.
 
-### Considerations:
+## Considerations:
 
 Ideas to implement in the future to improve accuracy: 
 
